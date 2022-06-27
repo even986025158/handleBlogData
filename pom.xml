@@ -18,6 +18,7 @@
     <modules>
         <module>handleData-api</module>
         <module>handleData-core</module>
+        <module>handleData-etl</module>
     </modules>
 
     <properties>
@@ -110,7 +111,6 @@
             <version>5.2.3</version>
         </dependency>
 
-<<<<<<< HEAD
         <!-- 微软语音识别 -->
         <dependency>
             <groupId>com.microsoft.cognitiveservices.speech</groupId>
@@ -124,8 +124,6 @@
             <artifactId>guava</artifactId>
             <version>27.1-jre</version>
         </dependency>
-=======
->>>>>>> c8d5b63 (第一次拆分)
     </dependencies>
 
     <build>
